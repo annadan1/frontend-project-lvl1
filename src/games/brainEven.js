@@ -1,3 +1,5 @@
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 const isEven = (number) => number % 2 === 0;
 
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
@@ -8,5 +10,6 @@ const getNewRound = () => {
     return [question, correctAnswer];
 };
 
-export default { getNewRound };
+export default { rules, getNewRound };
+
 
