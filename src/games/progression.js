@@ -12,7 +12,7 @@ const getProgression = (start, step, end) => {
 
 const getNewRound = () => {
     const start = getRandomInt(1, 15);
-    const end = getRandomInt(5, 10);
+    const end = getRandomInt(9, 15);
     const step = getRandomInt(1, 10);
     const progression = getProgression(start, step, end);
     const missedNumber = getRandomInt(1, 9);
