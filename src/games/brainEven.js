@@ -11,5 +11,3 @@ const getNewRound = () => {
 };
 
 export default { rules, getNewRound };
-
-

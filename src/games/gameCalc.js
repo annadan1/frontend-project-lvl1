@@ -23,5 +23,4 @@ const getNewRound = () => {
     return [question, correctAnswer];
 };
 
-
 export default { rules, getNewRound };
